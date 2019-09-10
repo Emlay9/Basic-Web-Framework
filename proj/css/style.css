@@ -1,0 +1,45 @@
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+/* Header */
+.site-nav {
+  padding: 0.8rem 3rem;
+  color: #444;
+  box-shadow: 0 0 5px #dedede;
+}
+
+.list-view {
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-view li:nth-child(2) {
+  margin-right: auto;
+  font-size: 28px;
+}
+
+li {
+  padding-right: 60px;
+}
+
+li:last-child,
+li:first-child {
+  padding-right: 10px;
+}
+
+/* Main */
+main {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+/* Footer */
